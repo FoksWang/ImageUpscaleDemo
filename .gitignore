@@ -66,6 +66,8 @@ playground.xcworkspace
 
 Carthage/Build/
 
+*.xcuserstate
+
 # Accio dependency management
 Dependencies/
 .accio/
