@@ -5,6 +5,7 @@ ImageUpscaleDemo is a SwiftUI iOS app that showcases real-time image upscaling a
 ## Features
 
 - Load images from URLs
+- Integration of Kingfisher for image caching (optional)
 - Apply various Core Image filters to enhance image quality:
   - Lanczos scale transform for upscaling
   - Noise reduction
@@ -12,6 +13,10 @@ ImageUpscaleDemo is a SwiftUI iOS app that showcases real-time image upscaling a
   - Median filter
 - Interactive sliders for adjusting filter parameters
 - Compare original and enhanced images side by side
+
+## Kingfisher Integration
+
+Using Kingfisher in the Demo app is optional. The main purpose of introducing Kingfisher is for caching images. When the image is not in the cache, the app fetches the image from the provided URL and processes it. If the image is already in the cache, there's no need to read it remotely, speeding up the image enhancement process.
 
 ## Requirements
 
