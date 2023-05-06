@@ -11,7 +11,7 @@ import CoreImage.CIFilterBuiltins
 import Kingfisher
 
 struct ContentView: View {
-    let imageUrl = URL(string: "your image url")!
+    let imageUrl = URL(string: "https://github.com/FoksWang/ImageUpscaleDemo/blob/main/LowResolutionImage/podcast_cover_small.png?raw=true")!
     
     @State private var originalImage: UIImage?
     @State private var improvedImage: UIImage?
