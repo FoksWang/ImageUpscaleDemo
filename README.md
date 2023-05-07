@@ -2,6 +2,14 @@
 
 ImageUpscaleDemo is a SwiftUI iOS app that showcases real-time image upscaling and enhancement using Core Image filters, providing an interactive interface for fine-tuning and comparing results.
 
+![ImageUpscaleDemo Screenshot](https://github.com/FoksWang/ImageUpscaleDemo/blob/main/Demo/ImageUpscaleDemo.png?raw=true)
+
+## Demo
+
+[![ImageUpscaleDemo Video](https://img.youtube.com/vi/IMAGE_UPSCALE_DEMO_VIDEO_ID/0.jpg)](https://github.com/FoksWang/ImageUpscaleDemo/raw/main/Demo/ImageUpscaleDemo.mp4)
+
+Click on the image above to watch the video demo.
+
 ## Features
 
 - Load images from URLs
